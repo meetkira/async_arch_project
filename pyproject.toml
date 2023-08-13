@@ -6,6 +6,12 @@ authors = ["Ratnik Kristina <kristi.2001@yandex.ru>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+fastapi = "^0.101.0"
+python-multipart = "^0.0.6"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+alembic = "^1.11.2"
 
 [tool.poetry.dev-dependencies]
 
